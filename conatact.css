@@ -1,0 +1,84 @@
+body{
+    background: url(image/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 0%;
+}
+.hj{
+    width: 5%;
+    height: 8%;
+}
+.aa{
+    text-align: center;
+    background: darkgoldenrod;
+    padding: 10px;
+}
+.aa a{
+    margin-left: 90px;
+    color: azure;
+    text-decoration: none;
+    font-size: 30px;
+}
+.aa a:hover{
+    background-color: rgb(30, 0, 0);
+}
+
+section{
+    display: flex;
+}
+.right, .left{
+    width: 50%;
+    text-align: center;
+}
+.left p{
+    color: rgba(0, 0, 0, 0.811);
+padding: 4px 0;
+font-size: 20px;
+
+}
+h2{
+    padding: 65px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h3{
+    padding-top: 40px;
+    color: rgb(53, 21, 21);
+}
+input,textarea,button{
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px 0;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background: rgba(255, 248, 220, 0.863);
+}
+button{
+    width: auto;
+    float: left;
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: rgba(22, 7, 116, 0.858);
+    color: aliceblue;
+}
+form{
+    margin: 35px 70px;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    background: darkgoldenrod;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+footer a{
+    margin: 0 20px;
+    text-decoration: none;
+}

@@ -1,94 +1,97 @@
 *{
+    background-color: rgb(30, 0, 0);
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS';
-    text-align: center;
-    background: white;
-    line-height: 1.5;
+    border-radius: 0%;
 }
-.logo img{
-    width: 150px;
-}
-.banner, .features{
+
+section{
     display: flex;
-    flex-wrap: wrap; /*responsiveness*/
+    padding: 10px;
+}
+.right, .left{
+    width: 50%;
+}
+img{
     width: 100%;
-    justify-content: space-between;
+    height: 100vh;
+margin-top: 24px;
+border-radius: 0;
 }
-.features{
-    width: 80%;
-    margin: 0 auto;
+.right{
+
+    padding: 75px;
+    color:darkgoldenrod;
+    align-items: center;
 }
-.features div{
-    width: 32%;
-}
-.banner div{
-    width: 33.3%;
-}.banner img, .features img{
+button{
     width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(41, 21, 21);
+}
+button{
+    width: auto;
+    float: right;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(215, 186, 100);
+    margin-top: 20PX;
+}
+p{
+    padding: 10px;
+    color:darkgoldenrod;
 }
 h1{
-    font-size: 50px;
-    margin: 50px 0;
-}
-.banner button{
-    padding: 15px 50px;
-    font-size: 20px;
-    background-color: cadetblue;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    margin: 20px 0;
-}
-h4{
-    color: cadetblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 55px;
 }
 h2{
+    text-align: center;
     font-size: 30px;
-    margin: 20px 0;
 }
-.text{
-    width: 70%;
-    margin: 0 auto;
-    padding-bottom: 30px;
+.fb, .fg, .fp{
+    margin: 5px;
+    border-radius: 60px;
+    margin-top: 20px;
+    width: 30%;
+    height: 30vh
 }
-.feedback{
-    width: 60%;
-    margin: 50px auto;
-}
-input, form button, textarea{
-    width: 100%;
-    padding: 15px;
-    margin: 0 0 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-form button{
-    width: auto;
-    float: left;
-}
-textarea{
-    height: 100px;
-}
-footer{
-    background-color: gray;
-    padding: 40px 0;
-}
-footer h3, footer p{
-    background: transparent;
-}
-/*Responsiveness*/
-@media(max-width: 800px){
-    banner div{
-        width: 100%;
-    }
+nav{
+text-align: center;
 
-.features div{
-    width: 100%;
 }
-.feedback{
-    width: 90%;
+.aa img{
+    width: 6%;
+    height: 9vh;
 }
+.aa{
+    background: darkgoldenrod;
+    padding: 10px;
+}
+nav a{
+    margin: 40px;
+    color: azure;
+    text-decoration: none;
+    font-size: 30px;
+font-family: cursive;
+padding: 8px;
+background: none;
+
+}
+nav a:hover{
+    background-color: rgb(30, 0, 0);
+}
+
+footer{
+    text-align: center;
+}
+footer p{
+    background: darkgoldenrod;
+    color: aliceblue;
+}
+
+img:hover {
+  transform: scale(0.9);
+  transition: transform 0.3s;
 }
