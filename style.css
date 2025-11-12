@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    background: white;
+    line-height: 1.5;
+}
+.logo img{
+    width: 150px;
+}
+.banner, .features{
+    display: flex;
+    flex-wrap: wrap; /*responsiveness*/
+    width: 100%;
+    justify-content: space-between;
+}
+.features{
+    width: 80%;
+    margin: 0 auto;
+}
+.features div{
+    width: 32%;
+}
+.banner div{
+    width: 33.3%;
+}.banner img, .features img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    margin: 50px 0;
+}
+.banner button{
+    padding: 15px 50px;
+    font-size: 20px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+h4{
+    color: cadetblue;
+}
+h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.text{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.feedback{
+    width: 60%;
+    margin: 50px auto;
+}
+input, form button, textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button{
+    width: auto;
+    float: left;
+}
+textarea{
+    height: 100px;
+}
+footer{
+    background-color: gray;
+    padding: 40px 0;
+}
+footer h3, footer p{
+    background: transparent;
+}
+/*Responsiveness*/
+@media(max-width: 800px){
+    banner div{
+        width: 100%;
+    }
+
+.features div{
+    width: 100%;
+}
+.feedback{
+    width: 90%;
+}
+}
